@@ -74,7 +74,7 @@ class ninjasCard extends ninjaCards {
         if (target.resilience > this.power) {
             console.log(`${target.name} has ${target.resilience} health remaining..`)
         } else {
-            console.log(`${target.name} has been defeated!`)
+            console.log(`${this.name} believed in the heart of the cards! ${target.name} has been defeated!`)
         }
     }
 }
