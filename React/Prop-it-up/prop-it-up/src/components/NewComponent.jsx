@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 class NewComponent extends Component{
-    constructor(props) {
+    constructor(props) {+
         super(props);
         this.state = {
             incrementAge : props.age
