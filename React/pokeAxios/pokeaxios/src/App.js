@@ -17,7 +17,7 @@ function App() {
       <button className="btn btn-warning btn-lg mt-5" onClick="">Fetch Pokemon</button>
 
       {
-        pokemon.map((item, i)=><h1>{item.name}</h1>)
+        pokemon.map((item, i)=><h1 key={i}>{item.name}</h1>)
       }
 
     </div>
